@@ -1,0 +1,753 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 8084 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity_oyunlar/âlâ_maps
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53411
+Successfully changed project path to: D:/unity_oyunlar/âlâ_maps
+D:/unity_oyunlar/âlâ_maps
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 126.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity_oyunlar/âlâ_maps/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   21.21.13.7667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.030402 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 129.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1208ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (107ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity_oyunlar\âlâ_maps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_oyunlar\âlâ_maps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.051 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2052ms)
+		BeginReloadAssembly (439ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (164ms)
+		EndReloadAssembly (1390ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (627ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.4 KB). Loaded Objects now: 3843.
+Memory consumption went from 119.4 MB to 119.3 MB.
+Total: 9.605200 ms (FindLiveObjects: 0.684700 ms CreateObjectMapping: 0.701700 ms MarkObjects: 7.985000 ms  DeleteObjects: 0.231500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182297.591498 seconds.
+  path: Assets/Scenes/Map3.unity
+  artifactKey: Guid(7a18d32a0ab9cbc4e8e23510d6acfbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map3.unity using Guid(7a18d32a0ab9cbc4e8e23510d6acfbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5a4648f0dbf011ad4fe995ece4f4fa') in 0.021391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.763638 seconds.
+  path: Assets/Models/FBX format
+  artifactKey: Guid(80bd2043bfaefb2428700487e4034bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FBX format using Guid(80bd2043bfaefb2428700487e4034bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97ef4965c04b9f08b0fe3ab50ba046a') in 0.011618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.153153 seconds.
+  path: Assets/Models/Kenny_hexagonal
+  artifactKey: Guid(80bd2043bfaefb2428700487e4034bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal using Guid(80bd2043bfaefb2428700487e4034bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38842811f51a10172c088a11282a6ba8') in 0.011036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.423148 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_cabin.fbx
+  artifactKey: Guid(5f31b763712efa34ca200f97bf344a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_cabin.fbx using Guid(5f31b763712efa34ca200f97bf344a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b729c2569cc0dde512b6af3075706a84') in 0.417003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_smelter.fbx
+  artifactKey: Guid(6b5f2af3b0e0e5e4eb83ec5eac1a8d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_smelter.fbx using Guid(6b5f2af3b0e0e5e4eb83ec5eac1a8d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1623b0058ed54ffd80b56e019ac2dd7f') in 0.262045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Models/Kenny_hexagonal/sand.fbx
+  artifactKey: Guid(0c626bdae81dc02449d679637fbc9ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/sand.fbx using Guid(0c626bdae81dc02449d679637fbc9ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0338bc786ff2b83882ddf68103d7476c') in 0.052255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_intersectionC.fbx
+  artifactKey: Guid(9d5e110a2ee2c324bb702e5c773fbb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_intersectionC.fbx using Guid(9d5e110a2ee2c324bb702e5c773fbb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b08e7620d0167b72bf84f33b59010b') in 0.083094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_mine.fbx
+  artifactKey: Guid(73d96b87a5ea94b4795ea12a93d86447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_mine.fbx using Guid(73d96b87a5ea94b4795ea12a93d86447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c3ec8efd48ebc439a8ccd1f015fbc3') in 0.196161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_corner.fbx
+  artifactKey: Guid(3710153612d23094c97cc62a26be14f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_corner.fbx using Guid(3710153612d23094c97cc62a26be14f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52a445d0a9a2ee06af4cba97259e9f1') in 0.058368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_castle.fbx
+  artifactKey: Guid(1c92abb5f18c65d42b21795e766c9577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_castle.fbx using Guid(1c92abb5f18c65d42b21795e766c9577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a369020d0743315779b54ecf9af670b') in 0.245378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_intersectionG.fbx
+  artifactKey: Guid(ad265c99b84cebb4e97e6dce99251cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_intersectionG.fbx using Guid(ad265c99b84cebb4e97e6dce99251cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e2fcfe47018d5d7d27f839e6203ce7') in 0.075645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_wall.fbx
+  artifactKey: Guid(b358f7d14b53caa4f85abf80509ba902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_wall.fbx using Guid(b358f7d14b53caa4f85abf80509ba902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2d08b36fe5548cafc83491e31b405d') in 0.236427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_intersectionA.fbx
+  artifactKey: Guid(bcb8f7b62fface24da7560e37517d516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_intersectionA.fbx using Guid(bcb8f7b62fface24da7560e37517d516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82058b1aef76eb16cd789e7d3dfff4e') in 0.077732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_farm.fbx
+  artifactKey: Guid(0ea3a06d665573b4c8af69ac6b194e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_farm.fbx using Guid(0ea3a06d665573b4c8af69ac6b194e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afad2452e915e09d04d7ba445e9aaaeb') in 0.126051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_crossing.fbx
+  artifactKey: Guid(b131d7d1ef053f54288163ff36790961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_crossing.fbx using Guid(b131d7d1ef053f54288163ff36790961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af817e014b739a49ca9553d563059795') in 0.053900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_intersectionB.fbx
+  artifactKey: Guid(943a2e00452a3564188f9a324285dcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_intersectionB.fbx using Guid(943a2e00452a3564188f9a324285dcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b45ff22d83b50e6fb7bcdad3478292') in 0.078114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_end.fbx
+  artifactKey: Guid(4cec5574c4b71c642a4023c6d06d59f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_end.fbx using Guid(4cec5574c4b71c642a4023c6d06d59f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4685e46db9ac4a6c81ed3b51c1ba1d') in 0.075135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_start.fbx
+  artifactKey: Guid(0c3813ea5221b7f47a2c3d224b56db3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_start.fbx using Guid(0c3813ea5221b7f47a2c3d224b56db3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34b11695870ddca42726a0edbadfead') in 0.076255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_end.fbx
+  artifactKey: Guid(fad4575928386b844ab58d58c4113efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_end.fbx using Guid(fad4575928386b844ab58d58c4113efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd928d264fa73cf99fa2ef7ee803e16') in 0.062465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_water.fbx
+  artifactKey: Guid(81789ef2136ddff4d90684a0055c5237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_water.fbx using Guid(81789ef2136ddff4d90684a0055c5237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9d86d81347f5c58f7d56ef301beea6') in 0.220076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_dock.fbx
+  artifactKey: Guid(beb468e8ac3df0041afdf251fe701a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_dock.fbx using Guid(beb468e8ac3df0041afdf251fe701a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de51d09c14cf646839012f0bdec65c3') in 0.178031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Models/Kenny_hexagonal/dirt_lumber.fbx
+  artifactKey: Guid(63f6293fc211ca143bccb877b32b0f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/dirt_lumber.fbx using Guid(63f6293fc211ca143bccb877b32b0f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4662b8993f6c5be007cef3e1c6818fb') in 0.173928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_straight.fbx
+  artifactKey: Guid(882ad844ac4c6964c8758bd524afac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_straight.fbx using Guid(882ad844ac4c6964c8758bd524afac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9213f6341173a97ae4d3a1beb85a7cf7') in 0.057890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_intersectionF.fbx
+  artifactKey: Guid(d8200e233c6eb80468fcd026c23c4b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_intersectionF.fbx using Guid(d8200e233c6eb80468fcd026c23c4b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a329649df98f506c4511c5859160970') in 0.071741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_intersectionF.fbx
+  artifactKey: Guid(b5b1ce249f3329c47a795b7ea2d6d357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_intersectionF.fbx using Guid(b5b1ce249f3329c47a795b7ea2d6d357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929b28dc129e2b5196bbc2b357c8cbf2') in 0.077729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_intersectionE.fbx
+  artifactKey: Guid(a39e6850929067a4992a974b95b3ee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_intersectionE.fbx using Guid(a39e6850929067a4992a974b95b3ee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba3acbbe41cfe24d47f4f02bc0d6e23') in 0.076368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_cornerSharp.fbx
+  artifactKey: Guid(7ea3aff8a563a4047876538099ac04d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_cornerSharp.fbx using Guid(7ea3aff8a563a4047876538099ac04d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48acbcd87d0d008e8684b5be44b5c0f') in 0.053488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_cornerSharp.fbx
+  artifactKey: Guid(77835de23d71af84191e1a0f50ad849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_cornerSharp.fbx using Guid(77835de23d71af84191e1a0f50ad849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd0153e895eb8edc6f1cc19dbae1850') in 0.075580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_intersectionD.fbx
+  artifactKey: Guid(9de8aaeddbb05f04e8f268d126839831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_intersectionD.fbx using Guid(9de8aaeddbb05f04e8f268d126839831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d07f29a3e77dbc7a363dd0bcea18991') in 0.059024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_intersectionG.fbx
+  artifactKey: Guid(fd70bf5128dcbd34194ae76bbf857da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_intersectionG.fbx using Guid(fd70bf5128dcbd34194ae76bbf857da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39412ae8563f963f678700197e71887e') in 0.058252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_intersectionH.fbx
+  artifactKey: Guid(17cd0589e658ce14080a9d47fa06091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_intersectionH.fbx using Guid(17cd0589e658ce14080a9d47fa06091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c058c9b816ab3469f0a5e8ffc7a56d09') in 0.075269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_village.fbx
+  artifactKey: Guid(af7de9e7598b6ff42acee7e2d303183c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_village.fbx using Guid(af7de9e7598b6ff42acee7e2d303183c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fab93e87608a4c1389a1e114192debe') in 0.230437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Kenny_hexagonal/grass_forest.fbx
+  artifactKey: Guid(27dbfe7a53f1602459e9a628f09073b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/grass_forest.fbx using Guid(27dbfe7a53f1602459e9a628f09073b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f3995d8efe1e20bc67aeaf3cbfd226') in 0.192781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_intersectionH.fbx
+  artifactKey: Guid(433fa9936f1424249bf490fb12d33be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_intersectionH.fbx using Guid(433fa9936f1424249bf490fb12d33be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2562c86b8ae67e0d6c2a973692554e') in 0.053712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_market.fbx
+  artifactKey: Guid(65ee6e9a8d7035f4a999621b0f3fce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_market.fbx using Guid(65ee6e9a8d7035f4a999621b0f3fce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b16c03000f0c9b7c292c26004df512') in 0.234665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_intersectionD.fbx
+  artifactKey: Guid(9bd8ee80cb03478429c7e5ff7680e3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_intersectionD.fbx using Guid(9bd8ee80cb03478429c7e5ff7680e3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ff303d60171817a8dca44df3778873') in 0.072701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_crossing.fbx
+  artifactKey: Guid(3f0b908c51f745543bf244c3a079ab80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_crossing.fbx using Guid(3f0b908c51f745543bf244c3a079ab80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78ee7ce2161790b401d812daea7f410') in 0.071868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_intersectionB.fbx
+  artifactKey: Guid(9902e0d9ea583354597a1f09552e98ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_intersectionB.fbx using Guid(9902e0d9ea583354597a1f09552e98ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d13ef4b5970e3bafe3c0688408aa1a') in 0.058474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_tower.fbx
+  artifactKey: Guid(b294d087557152c4d8774bda6688459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_tower.fbx using Guid(b294d087557152c4d8774bda6688459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256679ad5875c65da550bb9ec74f8dbe') in 0.254333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_intersectionA.fbx
+  artifactKey: Guid(e1391597c85cc454fa0024b0f265edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_intersectionA.fbx using Guid(e1391597c85cc454fa0024b0f265edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89563b94fd22ce7ec274d4dc4e748fb') in 0.055718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_corner.fbx
+  artifactKey: Guid(d2f43f09a715588449b47a67e0033530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_corner.fbx using Guid(d2f43f09a715588449b47a67e0033530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a850eb183d354921267825d0b1427b') in 0.075223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/Kenny_hexagonal/grass_hill.fbx
+  artifactKey: Guid(7866937808fe30840b90f1b7c8a7d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/grass_hill.fbx using Guid(7866937808fe30840b90f1b7c8a7d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41be6f8ed8de63c7c62ce32fc47bc7d') in 0.166931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Models/Kenny_hexagonal/dirt.fbx
+  artifactKey: Guid(70b8f847b7eaa7445b52f61ed5eb0762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/dirt.fbx using Guid(70b8f847b7eaa7445b52f61ed5eb0762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36453e189bdc92a905490a29dc4658ff') in 0.045222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Models/Kenny_hexagonal/river_straight.fbx
+  artifactKey: Guid(bbad4634422ca3e45a6cb0f05ce3c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/river_straight.fbx using Guid(bbad4634422ca3e45a6cb0f05ce3c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd198743d2a5a6317fd5fc5d747b4af65') in 0.076523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_house.fbx
+  artifactKey: Guid(b6e60a10abea69845b0bfc1aa5b65218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_house.fbx using Guid(b6e60a10abea69845b0bfc1aa5b65218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acb2391be9d0ad4cc8349981afeba72') in 0.216963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_start.fbx
+  artifactKey: Guid(183ebdd4ced6f4a4f9f81835365323ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_start.fbx using Guid(183ebdd4ced6f4a4f9f81835365323ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8c016ea00c5cfc10cd98f849f577f2') in 0.054508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Models/Kenny_hexagonal/sand_rocks.fbx
+  artifactKey: Guid(ea46d8d0ff508584281d58437011699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/sand_rocks.fbx using Guid(ea46d8d0ff508584281d58437011699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec2c468b4b6b1d825dffd86498d24c9') in 0.135758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Kenny_hexagonal/grass.fbx
+  artifactKey: Guid(acaf596c7af45234baa0900e12c557fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/grass.fbx using Guid(acaf596c7af45234baa0900e12c557fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b011017bf379b95b30ac4070dd4dfbf5') in 0.064166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_intersectionC.fbx
+  artifactKey: Guid(dc733817b42cda94299ccba9491dc6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_intersectionC.fbx using Guid(dc733817b42cda94299ccba9491dc6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1263692fc27ab1192ea9d08bbd6094') in 0.058395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Models/Kenny_hexagonal/path_intersectionE.fbx
+  artifactKey: Guid(d9889869b90a19f46bdba91cb874d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/path_intersectionE.fbx using Guid(d9889869b90a19f46bdba91cb874d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc7976f2e81528f11c6a97d677402d9') in 0.057022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_mill.fbx
+  artifactKey: Guid(974a8823d7cfb724dbfcbc9b055cac77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_mill.fbx using Guid(974a8823d7cfb724dbfcbc9b055cac77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606d6b511f8afedc2d0d8956ca54de9b') in 0.302978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Kenny_hexagonal/building_sheep.fbx
+  artifactKey: Guid(cfc9084aaff21f340a61902bc9266f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/building_sheep.fbx using Guid(cfc9084aaff21f340a61902bc9266f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de9dd36983912459518ea2d0e2cef61') in 0.262854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.191059 seconds.
+  path: Assets/Models/Kenny_hexagonal/stone.fbx
+  artifactKey: Guid(30f29a7e102705c4891edfed76f10b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/stone.fbx using Guid(30f29a7e102705c4891edfed76f10b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898c823a7eb8af891dbec0d7dae56ed5') in 0.044069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Kenny_hexagonal/stone_hill.fbx
+  artifactKey: Guid(5df059e0e1d2d55458879171409bc1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/stone_hill.fbx using Guid(5df059e0e1d2d55458879171409bc1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f5c31ef28af8565b2c63f8f4d7f849') in 0.128756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Kenny_hexagonal/unit_tower.fbx
+  artifactKey: Guid(41b84bab512fd824ea7e21fab544255f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/unit_tower.fbx using Guid(41b84bab512fd824ea7e21fab544255f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc87f70a68d598ea68207634eeb0cc62') in 0.084349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Models/Kenny_hexagonal/stone_mountain.fbx
+  artifactKey: Guid(13d6c13fbe1158842a7554a2851d0689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/stone_mountain.fbx using Guid(13d6c13fbe1158842a7554a2851d0689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0250a6887ee15d950f45e1d119428d8') in 0.084688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Models/Kenny_hexagonal/unit_houseLarge.fbx
+  artifactKey: Guid(c3662e3c7703c6a42ae6f03808cb3192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/unit_houseLarge.fbx using Guid(c3662e3c7703c6a42ae6f03808cb3192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53cd2e4a6d3111731b66b2562887443') in 0.058133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Kenny_hexagonal/unit_wallTower.fbx
+  artifactKey: Guid(863aa311abd03254aa00d21132e39349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/unit_wallTower.fbx using Guid(863aa311abd03254aa00d21132e39349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83069a72834d897ae81180834d44ffda') in 0.056926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Kenny_hexagonal/unit_boat.fbx
+  artifactKey: Guid(dc47d19bf2575284a96b11d34554c22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/unit_boat.fbx using Guid(dc47d19bf2575284a96b11d34554c22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526fcd367c019937f7846ccb12b9acd2') in 0.123614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/Kenny_hexagonal/stone_rocks.fbx
+  artifactKey: Guid(b8743b220cf3fb84383e6c9310ad6873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/stone_rocks.fbx using Guid(b8743b220cf3fb84383e6c9310ad6873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b98aedda0e970af7dd7df3b89e076d') in 0.112635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Kenny_hexagonal/unit_mill.fbx
+  artifactKey: Guid(b876345e146ef584eb915454d695902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/unit_mill.fbx using Guid(b876345e146ef584eb915454d695902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2a6e5fa8213991acd07388bf13161a') in 0.092082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Kenny_hexagonal/water.fbx
+  artifactKey: Guid(16f63947b275b264a9686fd806c83a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/water.fbx using Guid(16f63947b275b264a9686fd806c83a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4083c948fc9424380e0b790d0eac1490') in 0.045854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/Kenny_hexagonal/unit_tree.fbx
+  artifactKey: Guid(9a375202a7dcedb408bc9640207e56c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/unit_tree.fbx using Guid(9a375202a7dcedb408bc9640207e56c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1f24503de7a401948846a1900e428b') in 0.055248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Kenny_hexagonal/unit_house.fbx
+  artifactKey: Guid(86a24fde145152d48a0f5a0ef8f986f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/unit_house.fbx using Guid(86a24fde145152d48a0f5a0ef8f986f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b15d9a7e5f8da160ee98d1bb01397d') in 0.058229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.205998 seconds.
+  path: Assets/Models/Kenny_hexagonal/water_island.fbx
+  artifactKey: Guid(ebbe0d245b62be944b593cf467d2dbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/water_island.fbx using Guid(ebbe0d245b62be944b593cf467d2dbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87e10d5ce3d1b288c324133504bf9d8') in 0.101364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Kenny_hexagonal/water_rocks.fbx
+  artifactKey: Guid(9c08e46208a71164d974fd40d9171656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kenny_hexagonal/water_rocks.fbx using Guid(9c08e46208a71164d974fd40d9171656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e838e4d9efb4b04ca2faedffbedfd0') in 0.236661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.343411 seconds.
+  path: Assets/Scenes/Map2.unity
+  artifactKey: Guid(9e29538296a76344da29c008fddc075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map2.unity using Guid(9e29538296a76344da29c008fddc075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3619ef1a8315db091d7236b0782fa9') in 0.014131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.605205 seconds.
+  path: Assets/Scenes/Map3.unity
+  artifactKey: Guid(7a18d32a0ab9cbc4e8e23510d6acfbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map3.unity using Guid(7a18d32a0ab9cbc4e8e23510d6acfbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e55f1691f62581b12ff3345071de59c') in 0.003651 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009528 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity_oyunlar\âlâ_maps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_oyunlar\âlâ_maps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3031ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (2476ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (938ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (148ms)
+			SetupLoadedEditorAssemblies (985ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (97ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (214ms)
+				ProcessInitializeOnLoadAttributes (533ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3889.
+Memory consumption went from 124.7 MB to 124.7 MB.
+Total: 8.334600 ms (FindLiveObjects: 0.775000 ms CreateObjectMapping: 0.453400 ms MarkObjects: 6.960600 ms  DeleteObjects: 0.143900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010367 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity_oyunlar\âlâ_maps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_oyunlar\âlâ_maps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.739 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2741ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (2236ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (612ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (1153ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (89ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (725ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3892.
+Memory consumption went from 124.7 MB to 124.7 MB.
+Total: 7.638800 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.485800 ms MarkObjects: 6.652500 ms  DeleteObjects: 0.133400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009469 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity_oyunlar\âlâ_maps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_oyunlar\âlâ_maps\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2853ms)
+		BeginReloadAssembly (303ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2311ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (730ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (1088ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (82ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (210ms)
+				ProcessInitializeOnLoadAttributes (651ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (42ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3895.
+Memory consumption went from 124.7 MB to 124.7 MB.
+Total: 8.117500 ms (FindLiveObjects: 0.440400 ms CreateObjectMapping: 0.387300 ms MarkObjects: 7.101500 ms  DeleteObjects: 0.186600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
