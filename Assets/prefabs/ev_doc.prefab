@@ -300,6 +300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cabinDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Doctor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
 --- !u!4 &3963594477834559247 stripped

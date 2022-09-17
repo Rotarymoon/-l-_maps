@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44084403, g: 0.48954034, b: 0.56965095, a: 1}
+  m_IndirectSpecularColor: {r: 0.35138056, g: 0.35112098, b: 0.31682977, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3971,6 +3971,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4607720458133802996, guid: a25d8cb8ae1bd814289fafddc0d556a0, type: 3}
   m_PrefabInstance: {fileID: 1930217324}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &288272830
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 60.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.59
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.96923095
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.2461532
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 28.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 931936167ff703340ab3230d287a2507, type: 3}
+      propertyPath: m_Name
+      value: cliff_cave_stone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 931936167ff703340ab3230d287a2507, type: 3}
 --- !u!1001 &291325870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4154,6 +4223,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
@@ -7477,6 +7550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cabinDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
 --- !u!4 &494188098 stripped
@@ -7798,6 +7875,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
@@ -16584,7 +16665,7 @@ Transform:
   - {fileID: 270867997}
   - {fileID: 1191747638}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &805609641
 PrefabInstance:
@@ -17986,6 +18067,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
@@ -19579,6 +19664,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
@@ -25735,6 +25824,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
@@ -38038,6 +38131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cabinDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
 --- !u!4 &1292264828 stripped
@@ -38692,6 +38789,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
@@ -40692,6 +40793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cabinDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Muhtar
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
 --- !u!4 &1466054711 stripped
@@ -41871,14 +41976,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524606296}
-  m_LocalRotation: {x: 0.52890545, y: -0.21657053, z: 0.14171976, w: 0.8082523}
+  m_LocalRotation: {x: -0.012727846, y: -0.25879654, z: -0.0034104157, w: 0.965842}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 66.4, y: -30, z: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -1.51, y: -30, z: 0}
 --- !u!1001 &1528321739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42007,6 +42112,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
@@ -42148,6 +42257,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
@@ -42782,7 +42895,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2f0fe62d67e9b9841a8d9e50fc7da9fa, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f0fe62d67e9b9841a8d9e50fc7da9fa, type: 3}
       propertyPath: m_LocalScale.x
@@ -45271,6 +45384,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Sheriff
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
@@ -48233,6 +48350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cabinDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
 --- !u!4 &1907373212 stripped
@@ -48894,7 +49015,7 @@ Transform:
   - {fileID: 8711660312222192110}
   - {fileID: 366670942}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1945150247
 PrefabInstance:
@@ -51434,6 +51555,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 75d6011a53a9b2c47a122d0a87e9dded, type: 3}
   m_PrefabInstance: {fileID: 2106521494}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2106529274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9785809
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.20586252
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -23.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904096237309398511, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7907553324018701115, guid: c48517fa09edb884dad3068c4823f385, type: 3}
+      propertyPath: m_Name
+      value: flag_med
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c48517fa09edb884dad3068c4823f385, type: 3}
 --- !u!4 &2113010322 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a013fcb6d0a6a954eb5ffa4c2ba424c8, type: 3}
@@ -51662,7 +51840,7 @@ Transform:
   - {fileID: 238220965}
   - {fileID: 1588492428}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2132813735
 PrefabInstance:
@@ -51780,6 +51958,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Villager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
@@ -52707,6 +52889,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
       propertyPath: m_Name
       value: cabinDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
+      propertyPath: m_TagString
+      value: Doctor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131164ef7a996a24fbea14244ceedc3d, type: 3}
